@@ -823,7 +823,7 @@ function renderOptions(containerId, options, correctIndex, onCorrect, feedbackId
 /* Q1 */
 renderOptions('q1options',
   ["morning, May 20","evening, May 20","afternoon, May 20","morning, May 21"],
-  0,
+  1,
   ()=>{ score++; },
   'q1feedback','q1next'
 );
@@ -862,7 +862,7 @@ q3next.addEventListener('click', ()=>goTo(6));
 /* Q4 */
 renderOptions('q4options',
   ["tulips","roses","sunflowers","daisies"],
-  2,
+  1,
   ()=>{ score++; },
   'q4feedback','q4next'
 );
@@ -885,7 +885,7 @@ document.getElementById('btnToLetter').addEventListener('click', ()=>goTo(8));
 
 /* ---------------- LETTER ---------------- */
 const LETTER_TEXT =
-`you're cool, you remember the little things about us, huh? I made a game like this because I have a special reason for you, little details about us like when did we start dating?
+`Hello darling!.... you're cool, you remember the little things about us, huh? I made a game like this because I have a special reason for you, little details about us like when did we start dating?
 Happy 5th anniversary my dear, I am so happy to be able to always be with you until this second. I am always lucky to have you because your presence always makes my ordinary days so precious, all your behaviors that can make me happy, and you who always listen to every story about me whether it is sad or happy, thank you for everything you have given me.
 I love you so much, I've always been in love with you and everything about you. I always hope we'll be together for a longer time, if you need a place to just talk, I'll always be here and I'll always be proud of every good thing you do.
 Once again, I am truly grateful for your presence in my life.
